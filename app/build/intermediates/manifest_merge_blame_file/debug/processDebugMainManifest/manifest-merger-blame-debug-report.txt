@@ -1,0 +1,249 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.frsarker.weatherapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <!-- Include required permissions for Google Maps API to run. -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-maps:18.0.2] /Users/gabrielbondezan/.gradle/caches/transforms-4/542edaa591f8a5ff03b09a008cd8648f/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-maps:18.0.2] /Users/gabrielbondezan/.gradle/caches/transforms-4/542edaa591f8a5ff03b09a008cd8648f/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:22-76
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:18.0.2] /Users/gabrielbondezan/.gradle/caches/transforms-4/542edaa591f8a5ff03b09a008cd8648f/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:18.0.2] /Users/gabrielbondezan/.gradle/caches/transforms-4/542edaa591f8a5ff03b09a008cd8648f/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:18.0.2] /Users/gabrielbondezan/.gradle/caches/transforms-4/542edaa591f8a5ff03b09a008cd8648f/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+19
+20    <queries>
+20-->[com.google.android.gms:play-services-maps:18.0.2] /Users/gabrielbondezan/.gradle/caches/transforms-4/542edaa591f8a5ff03b09a008cd8648f/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+21
+22        <!-- Needs to be explicitly declared on Android R+ -->
+23        <package android:name="com.google.android.apps.maps" />
+23-->[com.google.android.gms:play-services-maps:18.0.2] /Users/gabrielbondezan/.gradle/caches/transforms-4/542edaa591f8a5ff03b09a008cd8648f/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+23-->[com.google.android.gms:play-services-maps:18.0.2] /Users/gabrielbondezan/.gradle/caches/transforms-4/542edaa591f8a5ff03b09a008cd8648f/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+24    </queries>
+25
+26    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:22:5-65
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:22:22-62
+27    <uses-feature
+27-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:25:5-27:36
+28        android:name="android.hardware.camera"
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:26:9-47
+29        android:required="false" />
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:27:9-33
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+31        android:name="android.hardware.camera.front"
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
+32        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
+33    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+34    <uses-feature
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:33:5-35:36
+35        android:name="android.hardware.camera.autofocus"
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:34:9-57
+36        android:required="false" />
+36-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:35:9-33
+37    <uses-feature
+37-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
+38        android:name="android.hardware.camera.flash"
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
+39        android:required="false" />
+39-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+40    <uses-feature
+40-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+41        android:name="android.hardware.screen.landscape"
+41-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+42        android:required="false" />
+42-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+43    <uses-feature
+43-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
+44        android:name="android.hardware.wifi"
+44-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
+45        android:required="false" />
+45-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
+46
+47    <permission
+47-->[androidx.core:core:1.13.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/7355ed258ff004f1f7a52a25b39730a1/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+48        android:name="com.frsarker.weatherapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+48-->[androidx.core:core:1.13.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/7355ed258ff004f1f7a52a25b39730a1/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+49        android:protectionLevel="signature" />
+49-->[androidx.core:core:1.13.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/7355ed258ff004f1f7a52a25b39730a1/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+50
+51    <uses-permission android:name="com.frsarker.weatherapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+51-->[androidx.core:core:1.13.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/7355ed258ff004f1f7a52a25b39730a1/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+51-->[androidx.core:core:1.13.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/7355ed258ff004f1f7a52a25b39730a1/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+52
+53    <application
+53-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:7:5-29:19
+54        android:allowBackup="true"
+54-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:8:9-35
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.13.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/7355ed258ff004f1f7a52a25b39730a1/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+56        android:debuggable="true"
+57        android:extractNativeLibs="true"
+58        android:icon="@mipmap/ic_launcher"
+58-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:9:9-43
+59        android:label="@string/app_name"
+59-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:10:9-41
+60        android:roundIcon="@mipmap/ic_launcher_round"
+60-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:11:9-54
+61        android:supportsRtl="true"
+61-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:9-35
+62        android:testOnly="true"
+63        android:theme="@style/AppTheme" >
+63-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:13:9-40
+64        <activity
+64-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:14:9-22:16
+65            android:name="com.frsarker.weatherapp.SplashActivity"
+65-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:15:13-43
+66            android:exported="true"
+66-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:17:13-36
+67            android:theme="@style/Theme.AppCompat.NoActionBar" >
+67-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:16:13-63
+68            <intent-filter>
+68-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:9-21:25
+69                <action android:name="android.intent.action.MAIN" />
+69-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:19:13-65
+69-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:19:21-62
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:20:13-73
+71-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:20:23-70
+72            </intent-filter>
+73        </activity>
+74
+75        <!-- MainActivity adicionada, será acessada depois da SplashScreen -->
+76        <activity
+76-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:25:5-27:54
+77            android:name="com.frsarker.weatherapp.MainActivity"
+77-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:25:15-43
+78            android:theme="@style/Theme.AppCompat.NoActionBar"
+78-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:26:13-63
+79            android:windowSoftInputMode="adjustPan" />
+79-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:27:13-52
+80
+81        <meta-data
+81-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:28:9-123
+82            android:name="com.google.android.geo.API_KEY"
+82-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:28:20-65
+83            android:value="AIzaSyAIpKdCvBL3rjgj4S1T_v4w65hqokPJdq4" />
+83-->/Users/gabrielbondezan/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:28:66-121
+84        <!-- Needs to be explicitly declared on P+ -->
+85        <uses-library
+85-->[com.google.android.gms:play-services-maps:18.0.2] /Users/gabrielbondezan/.gradle/caches/transforms-4/542edaa591f8a5ff03b09a008cd8648f/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+86            android:name="org.apache.http.legacy"
+86-->[com.google.android.gms:play-services-maps:18.0.2] /Users/gabrielbondezan/.gradle/caches/transforms-4/542edaa591f8a5ff03b09a008cd8648f/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+87            android:required="false" />
+87-->[com.google.android.gms:play-services-maps:18.0.2] /Users/gabrielbondezan/.gradle/caches/transforms-4/542edaa591f8a5ff03b09a008cd8648f/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+88
+89        <activity
+89-->[com.google.android.gms:play-services-base:18.0.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/118c0070929e921e3899d23dd3b5cc06/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+90            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+90-->[com.google.android.gms:play-services-base:18.0.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/118c0070929e921e3899d23dd3b5cc06/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-base:18.0.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/118c0070929e921e3899d23dd3b5cc06/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.android.gms:play-services-base:18.0.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/118c0070929e921e3899d23dd3b5cc06/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+93
+94        <meta-data
+94-->[com.google.android.gms:play-services-basement:18.0.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/2df63502ca6cc46da8bfd1cb12cb7eb5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+95            android:name="com.google.android.gms.version"
+95-->[com.google.android.gms:play-services-basement:18.0.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/2df63502ca6cc46da8bfd1cb12cb7eb5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+96            android:value="@integer/google_play_services_version" />
+96-->[com.google.android.gms:play-services-basement:18.0.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/2df63502ca6cc46da8bfd1cb12cb7eb5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+97
+98        <activity
+98-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
+99            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+99-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
+100            android:clearTaskOnLaunch="true"
+100-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+101            android:screenOrientation="sensorLandscape"
+101-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
+102            android:stateNotNeeded="true"
+102-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+103            android:theme="@style/zxing_CaptureTheme"
+103-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+104            android:windowSoftInputMode="stateAlwaysHidden" />
+104-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/1046cb1939fedf8e24c5c87bcb18f301/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+105
+106        <provider
+106-->[androidx.emoji2:emoji2:1.2.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/51b689a0be64552815bc89e805377c7d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+107            android:name="androidx.startup.InitializationProvider"
+107-->[androidx.emoji2:emoji2:1.2.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/51b689a0be64552815bc89e805377c7d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+108            android:authorities="com.frsarker.weatherapp.androidx-startup"
+108-->[androidx.emoji2:emoji2:1.2.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/51b689a0be64552815bc89e805377c7d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+109            android:exported="false" >
+109-->[androidx.emoji2:emoji2:1.2.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/51b689a0be64552815bc89e805377c7d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+110            <meta-data
+110-->[androidx.emoji2:emoji2:1.2.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/51b689a0be64552815bc89e805377c7d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+111                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+111-->[androidx.emoji2:emoji2:1.2.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/51b689a0be64552815bc89e805377c7d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+112                android:value="androidx.startup" />
+112-->[androidx.emoji2:emoji2:1.2.0] /Users/gabrielbondezan/.gradle/caches/transforms-4/51b689a0be64552815bc89e805377c7d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+113            <meta-data
+113-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/gabrielbondezan/.gradle/caches/transforms-4/fb7849b71f37df2cbd33d1dc3c9740cc/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+114                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+114-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/gabrielbondezan/.gradle/caches/transforms-4/fb7849b71f37df2cbd33d1dc3c9740cc/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+115                android:value="androidx.startup" />
+115-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/gabrielbondezan/.gradle/caches/transforms-4/fb7849b71f37df2cbd33d1dc3c9740cc/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+116            <meta-data
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+117                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+118                android:value="androidx.startup" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+119        </provider>
+120
+121        <receiver
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+122            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+123            android:directBootAware="false"
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+124            android:enabled="true"
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+125            android:exported="true"
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+126            android:permission="android.permission.DUMP" >
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+127            <intent-filter>
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+128                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+129            </intent-filter>
+130            <intent-filter>
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+131                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+132            </intent-filter>
+133            <intent-filter>
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+134                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+135            </intent-filter>
+136            <intent-filter>
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+137                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gabrielbondezan/.gradle/caches/transforms-4/6254ae4f9cd24468116e49c2c1f0950c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+138            </intent-filter>
+139        </receiver>
+140    </application>
+141
+142</manifest>

@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/layout_activity_main.xml.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/drawable_bg_gradient.xml.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/drawable/bg_gradient.xml"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/layout_activity_splash.xml.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-pngs-31:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/drawable_sunrise.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/drawable/sunrise.png"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/layout_fragment_map.xml.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/drawable_wind.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/drawable/wind.png"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/drawable_three_dots.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/drawable/three_dots.png"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/drawable_info.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/drawable/info.png"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/layout_fragment_weather.xml.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/layout/fragment_weather.xml"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/layout_popup_profile.xml.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/layout/popup_profile.xml"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/drawable_profile_image.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/drawable/profile_image.png"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/drawable_sunset.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/drawable/sunset.png"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/drawable_logo.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/drawable/logo.png"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/drawable_humidity.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/drawable/humidity.png"
+    },
+    {
+        "merged": "com.frsarker.weatherapp-debug-35:/layout_fragment_weather.xml.flat",
+        "source": "com.frsarker.weatherapp-main-37:/layout/fragment_weather.xml"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/drawable_pressure.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/drawable/pressure.png"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/drawable_qr.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/drawable/qr.png"
+    },
+    {
+        "merged": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-debug-35:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/gabrielbondezan/.gradle/daemon/8.7/com.frsarker.weatherapp-main-37:/mipmap-xhdpi/ic_launcher.png"
+    }
+]
